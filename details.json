@@ -1,0 +1,25 @@
+{
+  "prods": [
+    {
+      "id": 1,
+      "name": "iPhone",
+      "price": "25,0000",
+      "quant": "15",
+      "pImg": "https://images.pexels.com/photos/5878303/pexels-photo-5878303.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "id": 2,
+      "name": "iPhone",
+      "price": "30,000",
+      "quant": "20",
+      "pImg": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "name": "iPhone",
+      "price": "20,000",
+      "quant": "10",
+      "pImg": "https://images.pexels.com/photos/5878303/pexels-photo-5878303.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "id": 3
+    }
+  ]
+}
