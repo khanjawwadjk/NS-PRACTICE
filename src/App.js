@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Landing from './components/Landing';
+// import Landing from './components/Landing';
+import FunLanding from './FunctionalComps/FunLanding';
 
 function App() {
   return (
     <div className="App" >
-      <Landing />
+      {/* <Landing /> */}
+      <FunLanding />
     </div>
   );
 }

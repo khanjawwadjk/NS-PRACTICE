@@ -20,7 +20,7 @@ export class Prods extends Component {
 
     delProd(id){
         // alert("Delete ?");
-        delProducts(id);
+        // delProducts(id)
     }
 
     
