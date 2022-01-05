@@ -27,6 +27,10 @@ const FunAddProd = () => {
         navigate("/products");
     }
 
+    const  canDetails = () =>{
+        navigate("/products");
+    }
+
     return (
         <div>
             <Form>
@@ -39,7 +43,8 @@ const FunAddProd = () => {
                     <Form.Label>Image Path:</Form.Label>
                     <Form.Control type="text" placeholder="Image Path" name="img1" value={img1} onChange={(e)=>handleChange(e)}/>
                     <br />
-                    <Button variant="primary" type="submit" onClick={(e)=> addDetails(e)}>Submit</Button>
+                    <Button variant="primary" type="submit" style={{margin:"10px"}} onClick={(e)=> addDetails(e)}>Submit</Button>
+                    <Button variant="primary" type="submit" onClick={()=> canDetails()}>Cancel</Button>
             </Form>
         </div>
     );
