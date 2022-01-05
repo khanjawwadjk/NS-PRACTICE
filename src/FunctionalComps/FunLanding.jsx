@@ -4,6 +4,7 @@ import FunNav from './FunNav';
 import FunHome from "./FunHome";
 import Counter from './Counter';
 import FunProds from './FunProds';
+import FunAddProd from './FunAddProd';
 
 const FunLanding = () => {
     return (
@@ -14,6 +15,7 @@ const FunLanding = () => {
                     <Route path="/" element={<FunHome />}/>
                     <Route path="/counter" element={<Counter />}/>
                     <Route path="/products" element={<FunProds />}/>
+                    <Route path="/addproducts" element={<FunAddProd />}/>
                 </Routes>
             </Router>
         </div>

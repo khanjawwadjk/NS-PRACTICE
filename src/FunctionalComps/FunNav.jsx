@@ -22,6 +22,7 @@ const FunNav = () =>{
                 <Link to="/" style={myStyle2}>Home</Link>
                 <Link to="/counter" style={myStyle2}>Counter</Link>
                 <Link to="/products" style={myStyle2}>Products</Link>
+                <Link to="/addproducts" style={myStyle2}>Add Products</Link>
                 </Nav>
             </Container>
             </Navbar>
